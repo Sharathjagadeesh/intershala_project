@@ -1,0 +1,90 @@
+.backg
+{
+  background-color:lightblue;
+  width:40%;
+  margin:50px;
+  padding:20px;
+  border-radius:25px;
+  box-shadow:5px 5px 2px lightgrey;
+}
+body
+{
+  background-image:url('https://cdn.wallpapersafari.com/64/37/ZpVRqT.jpg');
+  background-size:100%;
+  background-repeat:no-repeat;
+}
+input
+{
+  border-radius:25px;
+  padding:10px;
+  margin:10px;
+  width:max-content;
+  box-shadow:1px 1px 0.5px white;
+  border:2px solid white;
+}
+.input_format,.input_format1
+{
+  position:relative;
+  top:10px;
+  left:-2.5rem;
+}
+#butn1
+{
+  border-radius:25px;
+  padding:5px;
+  margin:10px;
+  width:8rem;
+  background-color:#3ca1c3;
+  border:2px solid white;
+  color:white;
+}
+#butn1:hover
+{
+  background-color:#33cc33;
+  color:black;
+}
+@media (max-width:500px) and (min-width:370px)
+{
+  .backg
+  {
+    width:20rem;
+    position:relative;
+    top:70px;
+    left:-35px;
+  }
+  .input_format
+  {
+    font-size:25px;
+    position:relative;
+    top:10px;
+    left:-35px;
+  }
+  .input_format1
+  {
+    font-size:25px;
+    position:relative;
+    top:10px;
+    left:-45px;
+  }
+  .signup
+  {
+    font-size:30px;
+  }
+  #butn1
+  {
+    font-size:20px;
+    width:max-content;
+    padding-left:10px;
+    padding-right:10px;
+  }
+  #username,#PhoneNumber,#password
+  {
+    font-size:18px;
+  }
+  body
+  {
+    background-image:url('phone_back.jpg');
+    background-size:130%;
+    background-repeat:no-repeat;
+  }
+}
